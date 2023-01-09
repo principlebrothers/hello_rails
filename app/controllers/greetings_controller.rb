@@ -9,7 +9,7 @@ class GreetingsController < ApplicationController
 
   # GET /greetings/1
   def show
-    render json: @greeting
+    render json: set_greeting
   end
 
   # POST /greetings
@@ -24,6 +24,9 @@ class GreetingsController < ApplicationController
   end
 
   private
+  def set_greeting
+    @greeting = Greeting.find(params[:id])
+  end
 
   # Only allow a list of trusted parameters through.
   def greeting_params
