@@ -24,6 +24,7 @@ class GreetingsController < ApplicationController
   end
 
   private
+  
   def set_greeting
     @greeting = Greeting.find(params[:id])
   end
