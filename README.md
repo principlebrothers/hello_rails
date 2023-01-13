@@ -210,7 +210,7 @@ Feel free to check the [issues page](https://github.com/principlebrothers/hello_
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project buy me a [drink](.../.../)
+If you like this project, kindly give me a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -218,7 +218,6 @@ If you like this project buy me a [drink](.../.../)
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 We would like to thank [Microverse](https://www.microverse.org/) for inspiring this project
 
