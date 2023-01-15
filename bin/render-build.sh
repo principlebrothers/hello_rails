@@ -4,12 +4,5 @@ set -o errexit
 
 bundle install
 bundle exec rake db:migrate
+bundle exec rake db:seed
 
-# Export the development data
-RAILS_ENV=development rake db:schema:load
-
-# Import the data into the Render PostgreSQL database
-RAILS_ENV=production bundle exec rake db:schema:load
-
-# Exit the SSH session
-exit
