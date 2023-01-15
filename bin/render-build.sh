@@ -9,7 +9,7 @@ bundle exec rake db:migrate
 RAILS_ENV=development rake db:schema:load
 
 # Import the data into the Render PostgreSQL database
-RAILS_ENV=production bundle exec rrake db:schema:load
+RAILS_ENV=production bundle exec rake db:schema:load
 
 # Exit the SSH session
 exit
