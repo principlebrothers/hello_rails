@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>RAILS_REACT WEB APPLICATION</b></h3>
+  <h3><b>GREETING API</b></h3>
 
 </div>
 
@@ -57,23 +57,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Rails_React <a name="about-project"></a>
+# 📖 Greeting_API <a name="about-project"></a>
 
-**RailsReact** is web app to display greetings from rails API with react as the front-end in two apps.
+**Greeting_API** is web app to display greetings from rails API with react as the front-end in two apps.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > [Ruby on Rails](https://guides.rubyonrails.org/) (simplify as Rails) is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer and HTML, CSS and JavaScript for user interfacing.
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React</a></li>
-  </ul>
-</details>
 
 <details>
   <summary>Server</summary>
@@ -93,8 +85,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Key features of the application are
-
 - **Setup API endpoints**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,17 +93,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo coming soon...](https://yourdeployedapplicationlink.com)
+- [Live API link](https://greeting-t0aj.onrender.com/greetings)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> This project can be used by anyone for any good purpose.
 
 To get a local copy up and running, follow these steps.
 
@@ -218,8 +204,8 @@ If you like this project, kindly give me a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-We would like to thank [Microverse](https://www.microverse.org/) for inspiring this project
+- I would like to thank [Microverse](https://www.microverse.org/) for inspiring this project
+- I would like to appreciate [Render](https://render.com) for the plateform to deploy the API
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
