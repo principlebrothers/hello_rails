@@ -15,7 +15,7 @@ module HelloRails
     #
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
-    # config.public_file_server.enabled = true
+    config.public_file_server.enabled = true
     # config.assets.initialize_on_precompile = false
 
     # config.time_zone = "Central Time (US & Canada)"
