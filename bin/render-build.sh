@@ -6,7 +6,7 @@ bundle install
 bundle exec rake db:migrate
 
 # Export the development data
-RAILS_ENV=development bundle exec rake db:pg_dump
+RAILS_ENV=development bundle exec rake db:schema:load
 
 # Copy the exported data to the Render environment
 scp db/data.dump render@render-server:/app
