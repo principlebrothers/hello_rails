@@ -5,11 +5,20 @@ set -o errexit
 bundle install
 bundle exec rake db:migrate
 
-# export the data in the development database to production
-bundle exec rake db:export
+# Export the development data
+RAILS_ENV=development bundle exec rake db:pg_dump
 
-# run the tests
-bundle exec rake test
+# Copy the exported data to the Render environment
+scp db/data.dump render@render-server:/app
 
-# run the build
-bundle exec rake build
+# SSH into the Render server
+ssh render@render-server
+
+# Go to the app directory
+cd /app
+
+# Import the data into the Render PostgreSQL database
+RAILS_ENV=production bundle exec rake db:pg_restore
+
+# Exit the SSH session
+exit
