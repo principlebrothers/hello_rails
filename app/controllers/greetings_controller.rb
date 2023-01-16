@@ -1,4 +1,4 @@
- # Class: GreetingsController
+# Class: GreetingsController
 class GreetingsController < ApplicationController
   # GET /greetings
   def index
